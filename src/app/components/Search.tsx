@@ -19,7 +19,7 @@ export default function Search() {
     <form 
         className="flex justify-center md:justify-between" 
         onSubmit={handleSubmit}
-    >https://api.pexels.com/v1/curated
+    >
         <input 
             type="text" 
             value={search}

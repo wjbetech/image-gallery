@@ -15,7 +15,7 @@ export default function ImgContainer({ photo }: Props) {
 
   return (
     <div 
-      className='w-[240px] justify-self-center'
+      className='w-[245px] justify-self-center'
       style={{ gridRow: `span ${photoSpans}` }}
     >
       <Link 
